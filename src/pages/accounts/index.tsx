@@ -3,7 +3,7 @@ import axios, { AxiosError } from 'axios';
 
 import AccountsView from '@components/Accounts';
 import { Account } from 'src/types/account';
-import { COOKIE_TOKEN_KEY, TOKEN_EXPIRED } from '@vo/CookieTokenRepository';
+import { COOKIE_TOKEN_KEY, TOKEN_EXPIRED } from '@vo/cookieTokenVo';
 import getQueryString from '@utils/getQueryString';
 import AccountsService from '@services/AccountService';
 import { dehydrate, QueryClient } from '@tanstack/react-query';

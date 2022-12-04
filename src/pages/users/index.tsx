@@ -2,7 +2,7 @@ import { GetServerSideProps } from 'next';
 import axios, { AxiosError } from 'axios';
 
 import UsersView from '@components/Users';
-import { COOKIE_TOKEN_KEY, TOKEN_EXPIRED } from '@vo/CookieTokenRepository';
+import { COOKIE_TOKEN_KEY, TOKEN_EXPIRED } from '@vo/cookieTokenVo';
 import type { User } from 'src/types/user';
 import { dehydrate, QueryClient } from '@tanstack/react-query';
 import getQueryString from '@utils/getQueryString';

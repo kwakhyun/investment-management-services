@@ -1,5 +1,5 @@
 import SigninView from '@components/signin';
-import { COOKIE_TOKEN_KEY, TOKEN_EXPIRED } from '@vo/CookieTokenRepository';
+import { COOKIE_TOKEN_KEY, TOKEN_EXPIRED } from '@vo/cookieTokenVo';
 import { GetServerSideProps } from 'next';
 
 type Props = {

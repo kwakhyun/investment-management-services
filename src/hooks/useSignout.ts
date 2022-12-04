@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 
-import CookieToken from '@vo/CookieTokenRepository';
+import CookieToken from '@vo/cookieTokenVo';
 
 function useSignout() {
   const router = useRouter();

@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import { useMutation } from '@tanstack/react-query';
 
 import AuthService from '@services/AuthService';
-import CookieToken from '@vo/CookieTokenRepository';
+import CookieToken from '@vo/cookieTokenVo';
 import { AuthResponse } from 'src/types/auth';
 import { useDispatch } from 'react-redux';
 import { showModal } from '@store/modules/alertModalSlice';

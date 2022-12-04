@@ -2,7 +2,7 @@ import { GetServerSideProps } from 'next';
 import axios, { AxiosError } from 'axios';
 
 import AccountDetailView from '@components/AccountDetail';
-import { COOKIE_TOKEN_KEY, TOKEN_EXPIRED } from '@vo/CookieTokenRepository';
+import { COOKIE_TOKEN_KEY, TOKEN_EXPIRED } from '@vo/cookieTokenVo';
 import { Account } from 'src/types/account';
 
 type Props = {
