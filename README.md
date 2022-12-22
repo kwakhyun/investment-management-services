@@ -2,11 +2,6 @@
 
 > 2022-11-12 ~ 2022-11-18
 
-## 🔑 테스트 계정
-ID: rhkrgus01@test.com<br/>
-PW: rhkrgus01
-<br>
-
 로그인|계좌 목록 정렬
 :-|:-
 ![login (1)](https://user-images.githubusercontent.com/102936206/202605000-8e583df3-1ba7-41be-8f4a-f8ac786c748d.gif)|![filter-preface](https://user-images.githubusercontent.com/102936206/202604777-a30ca0b6-2888-492d-94f6-7dd1dcd25df0.gif)
