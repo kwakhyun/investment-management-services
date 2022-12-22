@@ -1,17 +1,6 @@
 ## 투자 관리 서비스의 관리자 기능 구현
 
-로그인|계좌 목록 정렬
-:-|:-
-![login (1)](https://user-images.githubusercontent.com/102936206/202605000-8e583df3-1ba7-41be-8f4a-f8ac786c748d.gif)|![filter-preface](https://user-images.githubusercontent.com/102936206/202604777-a30ca0b6-2888-492d-94f6-7dd1dcd25df0.gif)
-**계좌 목록 - 페이지네이션, 검색**|**계좌 상세 - 계좌 이름 변경**
-![pagenation-search-preface](https://user-images.githubusercontent.com/102936206/202605337-29486e7b-4b35-406d-86ff-f6c677b381a2.gif)|![account-detail-edit](https://user-images.githubusercontent.com/102936206/202609424-e088fcdc-3e03-465f-a14f-42ad8fa95f82.gif)
-**사용자 목록 - 정렬**|**사용자 목록 - 페이네이션, 검색**
-![filter-preface-users](https://user-images.githubusercontent.com/102936206/202605368-fbcc6265-5edc-4103-a2b7-0812301860f9.gif)|![pagenation-search-preface-users](https://user-images.githubusercontent.com/102936206/202605419-b43de6ff-3648-440d-abb4-d66899a93cd0.gif)
-**사용자 상세-사용자 이름 수정, 사용자 삭제**
-![edit-delete-users](https://user-images.githubusercontent.com/102936206/202605488-42fb6793-ebca-4500-b2ec-5d0c69d84f0a.gif)
-<br>
-
-## 🚀 기능 요구사항
+### 🚀 기능 요구사항
 1. 화면 구성
     - 로그인
     - Header
@@ -107,3 +96,15 @@
 9. 추가 구현 사항
     - `brokerFormat.json` 의 형식에 맞춘 계좌번호가 표기 (예: 123-123-123123-10)
     - 상황별 예외처리
+<br>
+
+### 🖥 구현 완료 화면
+로그인|계좌 목록 정렬
+:-|:-
+![login (1)](https://user-images.githubusercontent.com/102936206/202605000-8e583df3-1ba7-41be-8f4a-f8ac786c748d.gif)|![filter-preface](https://user-images.githubusercontent.com/102936206/202604777-a30ca0b6-2888-492d-94f6-7dd1dcd25df0.gif)
+**계좌 목록 - 페이지네이션, 검색**|**계좌 상세 - 계좌 이름 변경**
+![pagenation-search-preface](https://user-images.githubusercontent.com/102936206/202605337-29486e7b-4b35-406d-86ff-f6c677b381a2.gif)|![account-detail-edit](https://user-images.githubusercontent.com/102936206/202609424-e088fcdc-3e03-465f-a14f-42ad8fa95f82.gif)
+**사용자 목록 - 정렬**|**사용자 목록 - 페이네이션, 검색**
+![filter-preface-users](https://user-images.githubusercontent.com/102936206/202605368-fbcc6265-5edc-4103-a2b7-0812301860f9.gif)|![pagenation-search-preface-users](https://user-images.githubusercontent.com/102936206/202605419-b43de6ff-3648-440d-abb4-d66899a93cd0.gif)
+**사용자 상세 - 사용자 이름 수정, 사용자 삭제**
+![edit-delete-users](https://user-images.githubusercontent.com/102936206/202605488-42fb6793-ebca-4500-b2ec-5d0c69d84f0a.gif)
